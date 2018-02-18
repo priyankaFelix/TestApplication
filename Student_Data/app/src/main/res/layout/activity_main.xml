@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/LinearLayout1"
+    tools:context="com.example.admin.student_data.StudentMainActivity">
+
+   <EditText
+       android:id="@+id/roll_no"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter roll no"
+       android:ems="10"
+       android:inputType="number"/>
+    <requestFocus/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:ems="10" />
+    <EditText
+        android:id="@+id/marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter marks"
+        android:ems="10"
+        android:inputType="number"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/addbtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="Add"/>
+
+        <Button
+            android:id="@+id/deletebtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="Delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/modifybtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="Modify"/>
+        <Button
+            android:id="@+id/viewbtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="View"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/viewallbtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="View All" />
+
+        <Button
+            android:id="@+id/showbtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="Show"/>
+</LinearLayout>
+
+    </LinearLayout>
