@@ -5,4 +5,10 @@ package com.example.admin.student_data;
  */
 
 public class Test {
+
+    public void test1(){
+        
+    }
+
+
 }
